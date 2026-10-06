@@ -1,6 +1,6 @@
 # Ajay Surya Senthilrajan
 
-AI/GenAI engineer in Bengaluru. Day job: document intelligence and retrieval agents
+AI/GenAI engineer in Bengaluru. Document intelligence and retrieval agents
 (OCR at 3,000+ pages, GraphRAG, text-to-SQL, MCP, agent memory) at Redica Systems.
 Before that, four years of legal-document ML at Zolvit.
 
@@ -26,4 +26,4 @@ commit trailers; the problem framing, verification semantics, statistical decisi
 threat models and test design are mine, and I can walk through any of them on a call.
 
 ## Elsewhere
-LinkedIn: linkedin.com/in/ajay-surya-senthilrajan · Email: ajaysuryasenthilrajan@gmail.com
+LinkedIn: www.linkedin.com/in/ajay-surya-senthilrajan · Email: ajaysuryasenthilrajan@gmail.com
