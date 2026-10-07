@@ -1,29 +1,27 @@
 # Ajay Surya Senthilrajan
 
-AI/GenAI engineer in Bengaluru. Document intelligence and retrieval agents
-(OCR at 3,000+ pages, GraphRAG, text-to-SQL, MCP, agent memory) at Redica Systems.
-Before that, four years of legal-document ML at Zolvit.
+AI/GenAI engineer in Bengaluru. Document intelligence and retrieval systems
+at Redica Systems; previously legal-document ML at Zolvit.
 
-## The accountability layer for AI coding agents
+**I build independent testing and evidence for agent controls.**
 
-Coding agents ship PRs faster than humans can review them. These tools make an agent's
-work checkable in CI without trusting the agent's own summary:
+| Project | Question it answers |
+|---|---|
+| [agent-reliability-ci](https://github.com/ajaysurya1221/agent-reliability-ci) | Did an agent change reduce reliability under tool/MCP faults, and what failed? |
+| [actseal](https://github.com/ajaysurya1221/actseal) | Does a frozen action policy meet its declared risk and coverage limits? |
+| [dorian](https://github.com/ajaysurya1221/dorian) | Does the code still satisfy its recorded, executable claims? |
+| [frontier-scout](https://github.com/ajaysurya1221/frontier-scout) | Did an agent PR stay within the scope declared on its base branch? |
+| [evalopt-graph](https://github.com/ajaysurya1221/evalopt-graph) | Do the supplied gates, claims and evidence satisfy an acceptance policy? |
 
-| Tool | What it verifies | One number |
-|---|---|---|
-| [dorian](https://github.com/ajaysurya1221/dorian) | The agent's *claims* about a change, sealed and re-checked on every commit | P/R 0.93 on a 240-pair benchmark, 11.6× fewer false alarms than path-watching |
-| [frontier-scout](https://github.com/ajaysurya1221/frontier-scout) | The agent's PR stayed within *approved scope*, fail-closed, with optional Sigstore-attested evidence | 188 tests passed (PR #74), mypy strict core |
-| [agent-reliability-ci](https://github.com/ajaysurya1221/agent-reliability-ci) | The agent's *reliability* under injected tool/MCP faults, with honest statistics | 200 trials per arm, Clopper-Pearson/Newcombe bounds; 437 tests collected (2026-09-30 audit) |
-| [evalopt-graph](https://github.com/ajaysurya1221/evalopt-graph) | Whether the *evidence* satisfies an explicit acceptance policy, replayably | Zero runtime dependencies, 411 tests passed (2026-09-30 audit); CI across 5 Python versions and 3 OSes |
+**Start with [ARCI's offline demo](https://github.com/ajaysurya1221/agent-reliability-ci#try-the-offline-demo).**
+In its seeded retry example, removing a retry changes success from 192/200
+to 132/200. The gate reports BLOCK and the reduced failure replays offline.
+[Recorded results](https://github.com/ajaysurya1221/agent-reliability-ci/blob/evidence-2026-10-06/docs/results/retry-demo-n200.md).
 
-- [Calibration audit](https://github.com/ajaysurya1221/agent-reliability-ci/tree/main/docs/results/jev-calibration): 26,140 sealed requests; ECE 0.024 on CLINC150 and 0.084 on Banking77; all seven pre-registered expectations met.
-- [Decision layer](https://github.com/ajaysurya1221/frontier-scout/tree/main/docs/evaluation/decision-model): on a 324-command labelled set against the dogfood policy, dangerous static allows fell from 25 → 0 (11 denied, 14 sent to approval); AUROC > 0.998 on each risk question: destructive actions, secret exposure and privilege escalation.
+**How these were built.** I use AI coding assistants as pair-programmers
+and record that assistance in commit trailers. The problem framing,
+verification semantics, statistical decision rules, threat models and
+test design are mine; I can walk through them on a call.
 
-Start with dorian's 30-second demo or arci's five-minute path.
-
-**How these were built.** I use Claude Code and Codex as pair-programmers and record it in
-commit trailers; the problem framing, verification semantics, statistical decision rules,
-threat models and test design are mine, and I can walk through any of them on a call.
-
-## Elsewhere
-LinkedIn: www.linkedin.com/in/ajay-surya-senthilrajan · Email: ajaysuryasenthilrajan@gmail.com
+[LinkedIn](https://www.linkedin.com/in/ajay-surya-senthilrajan/) ·
+[Email](mailto:ajaysuryasenthilrajan@gmail.com)
