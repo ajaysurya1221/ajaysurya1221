@@ -7,12 +7,12 @@ search, summarisation and extraction.
 
 **I build independent testing and evidence for agent controls.**
 
-| Project | Question it answers | State on 12 October 2026 |
+| Project | Question it answers | State on 14 October 2026 |
 |---|---|---|
 | [actseal](https://github.com/ajaysurya1221/actseal) | Does a frozen action policy meet its declared risk and coverage limits? | [1.0.1 on PyPI](https://pypi.org/project/actseal/1.0.1/); separate finite-benchmark audit: INCONCLUSIVE, collected with unreleased snapshot d3edbab; replay requires that archived producer |
 | [agent-reliability-ci](https://github.com/ajaysurya1221/agent-reliability-ci) | Did an agent change reduce reliability under tool/MCP faults, and what failed? | [Evidence release 2026-10-06](https://github.com/ajaysurya1221/agent-reliability-ci/releases/tag/evidence-2026-10-06): planner, technical report, 18 archived decisions re-derived byte for byte on the tested macOS arm64 and Linux x86-64 environments |
 | [frontier-scout](https://github.com/ajaysurya1221/frontier-scout) | Did an agent PR stay within the scope declared on its base branch? | [2.2.0 on PyPI](https://pypi.org/project/frontier-scout/2.2.0/); repairs the verifier defects published for 2.1.0 and earlier |
-| [dorian](https://github.com/ajaysurya1221/dorian) | Does the code still satisfy its recorded, executable claims? | [1.4.0 on PyPI](https://pypi.org/project/dorian-vwp/1.4.0/) as `dorian-vwp` |
+| [dorian](https://github.com/ajaysurya1221/dorian) | Does the code still satisfy its recorded, executable claims? | [1.4.1 on PyPI](https://pypi.org/project/dorian-vwp/1.4.1/) as `dorian-vwp`; documentation and metadata patch, 14 October 2026 |
 | [evalopt-graph](https://github.com/ajaysurya1221/evalopt-graph) | Do the supplied gates, claims and evidence satisfy an acceptance policy? | [0.1.0 on PyPI](https://pypi.org/project/evalopt-graph/0.1.0/) |
 
 **Try the synthetic demo.** Requires macOS/Linux and uv; use a new `./actseal-demo`
