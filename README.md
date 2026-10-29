@@ -16,13 +16,25 @@ Previously, as **Software Engineer – ML** at **Zolvit (formerly Vakilsearch)**
 
 I build independent testing and evidence tools for agent controls. Start with **ARCI** to see an experiment, a regression decision, failure diagnosis and offline replay in one runnable fixture.
 
-| Project | What it does | Published version |
-|---|---|---|
-| [ARCI](https://github.com/ajaysurya1221/agent-reliability-ci) | Runs predeclared baseline/candidate experiments under tool faults, applies non-inferiority gates and replays recorded failures. | [0.8.0](https://pypi.org/project/agent-reliability-ci/0.8.0/) |
-| [Actseal](https://github.com/ajaysurya1221/actseal) | Tests a frozen categorical action policy against labelled cases, bounds accepted-action risk and coverage, and replays the evidence. | [1.0.1](https://pypi.org/project/actseal/1.0.1/) |
-| [Dorian](https://github.com/ajaysurya1221/dorian) | Turns explicit code claims into executable checks and revalidates them after changes. | [1.4.1](https://pypi.org/project/dorian-vwp/1.4.1/) |
-| [Frontier Scout](https://github.com/ajaysurya1221/frontier-scout) | Checks declared PR scope against base-commit policy and compiles policy into Claude Code permissions and hooks. Research preview. | [2.2.0](https://pypi.org/project/frontier-scout/2.2.0/) |
-| [Evalopt Graph](https://github.com/ajaysurya1221/evalopt-graph) | Evaluates supplied gates, claims and evidence against acceptance policy. Standalone feature development has ended; the kernel and research record remain available. | [0.1.1](https://pypi.org/project/evalopt-graph/0.1.1/) |
+### [ARCI](https://github.com/ajaysurya1221/agent-reliability-ci) · [0.8.0](https://pypi.org/project/agent-reliability-ci/0.8.0/)
+
+Runs predeclared baseline/candidate experiments under tool faults, applies non-inferiority gates and replays recorded failures.
+
+### [Actseal](https://github.com/ajaysurya1221/actseal) · [1.0.1](https://pypi.org/project/actseal/1.0.1/)
+
+Tests a frozen categorical action policy against labelled cases, bounds accepted-action risk and coverage, and replays the evidence.
+
+### [Dorian](https://github.com/ajaysurya1221/dorian) · [1.4.1](https://pypi.org/project/dorian-vwp/1.4.1/)
+
+Turns explicit code claims into executable checks and revalidates them after changes.
+
+### [Frontier Scout](https://github.com/ajaysurya1221/frontier-scout) · [2.2.0](https://pypi.org/project/frontier-scout/2.2.0/)
+
+Checks declared PR scope against base-commit policy and compiles policy into Claude Code permissions and hooks. Research preview.
+
+### [Evalopt Graph](https://github.com/ajaysurya1221/evalopt-graph) · [0.1.1](https://pypi.org/project/evalopt-graph/0.1.1/)
+
+Evaluates supplied gates, claims and evidence against acceptance policy. Standalone feature development has ended; the kernel and research record remain available.
 
 ## Run the ARCI retry demo
 
