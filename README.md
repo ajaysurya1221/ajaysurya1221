@@ -16,6 +16,10 @@ Previously, as **Software Engineer – ML** at **Zolvit (formerly Vakilsearch)**
 
 I build independent testing and evidence tools for agent controls. Start with **ARCI** to see an experiment, a regression decision, failure diagnosis and offline replay in one runnable fixture.
 
+**[Watch two 70-second fixture demos](showcase/README.md)** · **[One-page engineering evidence](showcase/Ajay_Surya_Engineering_Evidence.pdf)**
+
+The recordings show actual local CLI output, with time compression and explanatory annotations. Their runtime commits, asset hashes and limitations are included.
+
 ### [ARCI](https://github.com/ajaysurya1221/agent-reliability-ci) · [0.8.0](https://pypi.org/project/agent-reliability-ci/0.8.0/)
 
 Runs predeclared baseline/candidate experiments under tool faults, applies non-inferiority gates and replays recorded failures.

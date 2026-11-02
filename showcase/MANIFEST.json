@@ -1,0 +1,50 @@
+{
+  "captured_on": "2026-11-02",
+  "assets": [
+    {
+      "path": "showcase/arci-demo.mp4",
+      "bytes": 1174326,
+      "sha256": "ae4501a76e9a99184289fe633ee26236c542af4098ef84d4035555a3d251a4c3"
+    },
+    {
+      "path": "showcase/actseal-demo.mp4",
+      "bytes": 883696,
+      "sha256": "f3f5764007426234365bf6dd196a01ad6845b13ca3464e3f96d2e88649a63303"
+    },
+    {
+      "path": "showcase/arci-preview.png",
+      "bytes": 66066,
+      "sha256": "7ad36610765abd07fc63f1b35d8d72074dc008d144e5228c176dc00264ca29d6"
+    },
+    {
+      "path": "showcase/actseal-preview.png",
+      "bytes": 71818,
+      "sha256": "067949f4bef6ec583483ef996235d676fb2b428d56da6a19ef7238b8b504e84b"
+    },
+    {
+      "path": "showcase/arci-architecture.png",
+      "bytes": 144167,
+      "sha256": "b1ac48a84787def6cff861827527be5373c1aca9b4bb1ae8602f641279ebb63a"
+    },
+    {
+      "path": "showcase/actseal-architecture.png",
+      "bytes": 160832,
+      "sha256": "21e0e6c2c72f70a5bdc628566e23b90afb97699e742b5e545d66e01c9e06e7c5"
+    },
+    {
+      "path": "showcase/Ajay_Surya_Engineering_Evidence.pdf",
+      "bytes": 46116,
+      "sha256": "dd494cbac569ecade5662536f796d0d1d9cc1b839f5abad8f32ad872c1c1ccc7"
+    },
+    {
+      "path": "showcase/arci-architecture.html",
+      "bytes": 800629,
+      "sha256": "e7ef8568bdd1130af0b959753f24668071229ea17d4b55fef01353feb5d55a8f"
+    },
+    {
+      "path": "showcase/actseal-architecture.html",
+      "bytes": 802484,
+      "sha256": "902f1c8f781b152cddf9d3e71008efc2a2ae72cd47d355212aaca7e4952804a5"
+    }
+  ]
+}
