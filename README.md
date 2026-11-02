@@ -16,7 +16,7 @@ Previously, as **Software Engineer – ML** at **Zolvit (formerly Vakilsearch)**
 
 I build independent testing and evidence tools for agent controls. Start with **ARCI** to see an experiment, a regression decision, failure diagnosis and offline replay in one runnable fixture.
 
-**[Watch two 70-second fixture demos](showcase/README.md)** · **[One-page engineering evidence](showcase/Ajay_Surya_Engineering_Evidence.pdf)**
+**[Watch two 70-second fixture demos](showcase/README.md)** · **[Engineering evidence sheet](showcase/EVIDENCE.md)**
 
 The recordings show actual local CLI output, with time compression and explanatory annotations. Their runtime commits, asset hashes and limitations are included.
 

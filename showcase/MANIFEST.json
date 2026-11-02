@@ -45,6 +45,21 @@
       "path": "showcase/actseal-architecture.html",
       "bytes": 802484,
       "sha256": "902f1c8f781b152cddf9d3e71008efc2a2ae72cd47d355212aaca7e4952804a5"
+    },
+    {
+      "path": "showcase/arci-preview.gif",
+      "bytes": 991601,
+      "sha256": "c482a712d28d019804c5160a5178f8a1fc6dc0e348f0986d2d32b4f881254d4e"
+    },
+    {
+      "path": "showcase/actseal-preview.gif",
+      "bytes": 774068,
+      "sha256": "eef226cc62efc33f3b43177b8b908128918e8e78bcf0e7b20adc00050a784496"
+    },
+    {
+      "path": "showcase/EVIDENCE.md",
+      "bytes": 2499,
+      "sha256": "d40d93f17fa6dc09581556e93862c442393b0c26d08d3275be32913586253f8b"
     }
   ]
 }

@@ -1,12 +1,12 @@
 # Engineering evidence · Ajay Surya Senthilrajan
 
-[One-page evidence sheet](Ajay_Surya_Engineering_Evidence.pdf) · [Career profile](../README.md)
+[Evidence sheet](EVIDENCE.md) · [Printable one-page PDF](Ajay_Surya_Engineering_Evidence.pdf) · [Career profile](../README.md)
 
 Two short local fixture recordings show how I make a decision inspectable: declare the rule, run the case, retain evidence and replay the result. Captured **2 November 2026**. Each silent video is **70 seconds**.
 
 ## ARCI — from a regression to a replayable failure
 
-[![ARCI fixture recording](arci-preview.png)](arci-demo.mp4)
+[![ARCI fixture recording — animated preview](arci-preview.gif)](arci-demo.mp4)
 
 **[Open the ARCI video](arci-demo.mp4)** · [Project and runnable demo](https://github.com/ajaysurya1221/agent-reliability-ci#try-the-offline-demo)
 
@@ -20,7 +20,7 @@ The simplified path is a frozen experiment and schedule → isolated trial/tool 
 
 ## Actseal — explicit action decisions and retained evidence
 
-[![Actseal fixture recording](actseal-preview.png)](actseal-demo.mp4)
+[![Actseal fixture recording — animated preview](actseal-preview.gif)](actseal-demo.mp4)
 
 **[Open the Actseal video](actseal-demo.mp4)** · [Project and runnable demo](https://github.com/ajaysurya1221/actseal)
 
@@ -35,6 +35,8 @@ The simplified path is a frozen categorical policy → local fixture model and l
 ## Recording provenance and limits
 
 These are **rendered PTY recordings, not desktop screencasts**. Application output comes from captured subprocesses. Waits are compressed, reading holds and editorial titles are added, selected lines are omitted, and long paths are displayed as `$RUNTIME`, `$DEMO` and `$CAPTURE`. Editorial explanations are separate from CLI output. No CLI result was fabricated.
+
+The inline GIF previews retain the full 70-second edited runtime at 4 frames per second and 1280-pixel width. The original MP4 files retain 20 frames per second and 1920-pixel width. GitHub's MP4 file view may offer a raw-file link instead of an inline player; the animated previews and readable evidence page avoid depending on that preview service.
 
 | Recording | Runtime | Source commit |
 |---|---|---|
