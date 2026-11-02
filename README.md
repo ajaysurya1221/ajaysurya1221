@@ -2,7 +2,7 @@
 
 **AI / GenAI engineer · Document intelligence, retrieval agents and evaluation**
 
-At **Redica Systems**, as **Data Engineer II (MLE)**, I build document-intelligence and retrieval-agent capabilities. My work includes OCR for documents of **3,000+ pages**, GraphRAG, text-to-SQL, MCP tools and agent memory. I deliver LLM features across retrieval design, prompting, evaluation, FastAPI services and AWS deployment, working with Product and distributed engineering teams.
+At **Redica Systems**, as **Data Engineer II (MLE)**, I own a document-intelligence project spanning OCR, structured extraction, retrieval and service integration. I work on page-level quality checks, controlled retries, required-field validation and review-aware processing. My work also includes GraphRAG, text-to-SQL, MCP tools, agent memory, FastAPI services and AWS delivery, working with Product and distributed engineering teams.
 
 Previously, as **Software Engineer – ML** at **Zolvit (formerly Vakilsearch)**, I built hybrid legal-document search, summarisation and extraction systems, and adapted open-source language models through continued pre-training and parameter-efficient fine-tuning.
 
@@ -46,4 +46,5 @@ uvx --python 3.12 --from 'agent-reliability-ci==0.8.0' arci demo --workers 4
 
 The demo removes a retry, checks the regression, reduces the injected fault set, replays the failure and checks a repair. It exits **0 when the expected outcomes hold**, including the intended **BLOCK** for the broken candidate. [Read the fixture and its limits](https://github.com/ajaysurya1221/agent-reliability-ci#try-the-offline-demo).
 
-The projects' fixture and benchmark results have defined scopes; they do not establish production safety or customer adoption. Each repository documents its trust boundaries and limitations. I use AI coding assistants as pair-programmers and record that assistance in commit trailers.
+The projects' fixture and benchmark results have defined scopes; they do not establish production safety or customer adoption. Each repository documents its trust boundaries and limitations. I use AI coding assistants as pair-programmers.
+
