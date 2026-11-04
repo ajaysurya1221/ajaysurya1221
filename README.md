@@ -1,14 +1,16 @@
 # Ajay Surya Senthilrajan
 
-**AI / GenAI engineer · Document intelligence, retrieval agents and evaluation**
+**AI & Machine Learning Engineering · OCR, retrieval agents and evaluation**
 
-At **Redica Systems**, as **Data Engineer II (MLE)**, I own a document-intelligence project spanning OCR, structured extraction, retrieval and service integration. I work on page-level quality checks, controlled retries, required-field validation and review-aware processing. My work also includes GraphRAG, text-to-SQL, MCP tools, agent memory, FastAPI services and AWS delivery, working with Product and distributed engineering teams.
+At **Redica Systems**, as **Data Engineer II (MLE)**, I own a document-intelligence project spanning OCR, structured extraction, retrieval and service integration. I check OCR output page by page, retry when needed and flag unreliable content for review. My extraction workflows validate required fields.
+
+I also build retrieval agents that use GraphRAG and text-to-SQL to query graph and structured data. I expose retrieval through MCP tools and use agent memory to retain context across interactions. I work with Product and distributed engineering teams to deliver these features through FastAPI services and AWS.
 
 Previously, as **Software Engineer – ML** at **Zolvit (formerly Vakilsearch)**, I built hybrid legal-document search, summarisation and extraction systems, and adapted open-source language models through continued pre-training and parameter-efficient fine-tuning.
 
 **Working tools:** Python, FastAPI, AWS, PyTorch and Docker.
 
-**Seeking Senior AI / GenAI Engineer and Senior Machine Learning Engineer roles.** Bengaluru preferred; Chennai also considered. Available to join immediately.
+**Open to senior engineering roles across applied AI, generative AI and machine learning.** Bengaluru is my first choice, followed by Chennai. Available immediately.
 
 [LinkedIn](https://www.linkedin.com/in/ajay-surya-senthilrajan/) · [Email](mailto:ajaysuryasenthilrajan@gmail.com)
 
