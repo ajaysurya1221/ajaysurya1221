@@ -2,36 +2,32 @@
 
 **Document AI. Retrieval. Evaluation.**
 
-Target: **Senior AI / GenAI Engineer** · Bengaluru first, Chennai second · Immediate availability
+Senior individual contributor opportunities across applied AI, machine learning and AI systems engineering. Bengaluru first, Chennai second. Available immediately.
 
-[Printable one-page PDF](Ajay_Surya_Engineering_Evidence.pdf) · [Recorded project demonstrations](README.md)
+## OCR engineering at Redica Systems
 
-## Project ownership at Redica Systems
+Owned the OCR and document-processing workstream from server and model selection through implementation and optimization. Implemented page chunking, disk-backed intermediate results, concurrency controls and buffer cleanup to manage processing within EC2 memory constraints. Built page-level quality checks, controlled OCR retries, required-field validation and review signals for unreliable output.
 
-Owned a document-intelligence project spanning OCR, structured extraction, retrieval and service integration. The work includes page-level quality checks, controlled OCR retries and explicit review signals for unreliable content.
+Contributed to the wider agentic AI platform through retrieval integrations, MCP tools and agent memory. This does not imply sole ownership of the wider platform.
 
-Formal role: **Data Engineer II (MLE), July 2024–present**. Employer implementation and customer material remain private.
+Formal role: **Data Engineer II (MLE), July 2024-present**. Employer implementation and customer material remain private.
 
 ## Two public projects to inspect first
 
 ### [ARCI — regression experiments for agents](https://github.com/ajaysurya1221/agent-reliability-ci)
 
-Compares baseline and candidate behavior under declared tasks and faults. Connects statistical gating, tool/MCP fault injection, failure diagnosis and offline replay.
+Compares baseline and candidate behavior under declared tasks and faults. Connects statistical gating, tool-failure experiments and offline replay. Inspect the documented fixture demo, experiment and reproduced failure. A result is scoped to that experiment, not absolute reliability.
 
-Inspect the documented fixture demo, declared experiment and reproduced failure. A passing result is scoped to that experiment; it is not absolute reliability.
+### [Actseal — evaluate a fixed action policy](https://github.com/ajaysurya1221/actseal)
 
-### [Actseal — evaluate one fixed action policy](https://github.com/ajaysurya1221/actseal)
+Evaluates accepted-action risk and coverage on labelled cases, computes statistical bounds and records evidence for provider-free replay. Inspect the bad/fixed fixture comparison. Replay checks consistency, not response authenticity or label truth.
 
-Evaluates accepted-action risk and coverage with exact binomial bounds, applies synthetic provider-fault checks and seals evidence for provider-free replay.
+## Supporting evidence
 
-Inspect the fixed/bad fixture comparison and replay artifacts. Replay checks consistency with recorded evidence; it does not authenticate responses or prove label truth.
+[Dorian](https://github.com/ajaysurya1221/dorian): explicit code claims and revalidation. [Frontier Scout](https://github.com/ajaysurya1221/frontier-scout): declared pull-request scope checks, with research-preview limits. [Evalopt Graph](https://github.com/ajaysurya1221/evalopt-graph): supplied-evidence acceptance decisions; standalone feature development has ended.
 
-## Further engineering evidence
-
-[Dorian](https://github.com/ajaysurya1221/dorian): checkable code claims and revalidation. [Frontier Scout](https://github.com/ajaysurya1221/frontier-scout): declared pull-request scope verification, with its research-preview limits. [Evalopt Graph](https://github.com/ajaysurya1221/evalopt-graph): supplied-evidence acceptance decisions; standalone feature development has ended.
-
-A useful interview discussion: define the acceptance contract, introduce a failure, inspect the evidence, explain the boundary and decide what to test next.
+[Recorded project demonstrations](README.md) retain their original runtime versions and limits. The [2 November printable evidence sheet](Ajay_Surya_Engineering_Evidence.pdf) is a historical edition; this page is the current narrative.
 
 [GitHub portfolio](https://github.com/ajaysurya1221) · [LinkedIn](https://www.linkedin.com/in/ajay-surya-senthilrajan/)
 
-Prepared 2 November 2026. Public-project fixture demonstrations are bounded evidence, not production certification. This readable version preserves the evidence sheet's substantive wording; the PDF remains available for printing.
+Revised 10 November 2026. Fixture demonstrations are bounded evidence, not production certification.
