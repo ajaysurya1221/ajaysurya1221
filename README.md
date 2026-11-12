@@ -1,8 +1,8 @@
 # Ajay Surya Senthilrajan
 
-**AI & Machine Learning Engineering · Document AI, retrieval agents and evaluation**
+**Applied AI & Machine Learning · Agentic systems, retrieval and evaluation**
 
-I build document-processing systems, contribute to agentic retrieval workflows, and develop open-source tools for testing agent reliability. At Redica, I owned OCR engineering from server and model selection through resource optimization on EC2.
+I build AI applications that connect language models to data and tools, and open-source software for testing agent behavior. My work includes retrieval integrations, MCP tools and agent memory.
 
 **Open to senior individual contributor roles across applied AI, generative AI and machine learning.** Bengaluru first, Chennai second. Available immediately.
 
@@ -46,9 +46,9 @@ Recordings retain their original runtime versions, time compression, annotations
 
 **Redica Systems · Data Engineer II (MLE)**
 
-I owned the OCR and document-processing workstream: server and model selection, page chunking, disk-backed intermediate results, concurrency controls and buffer cleanup for processing within EC2 memory constraints. I built page-level quality checks, controlled OCR retries, required-field validation and review signals for unreliable output.
+At Redica Systems, I contributed to the agentic AI platform by integrating GraphRAG and text-to-SQL into retrieval workflows, exposing retrieval through MCP tools, and implementing memory to retain context across interactions.
 
-I contributed to the wider agentic AI platform through GraphRAG and text-to-SQL retrieval workflows, MCP tools and agent memory. I worked with Product and distributed engineering teams to deliver these features through FastAPI services on AWS. Employer implementation and customer material remain private.
+I also owned OCR engineering from EC2 and model selection through resource optimization, including page chunking, disk-backed intermediates and concurrency controls. This work included quality checks, controlled OCR retries and review signals for unreliable output. Employer implementation and customer material remain private.
 
 **Zolvit (formerly Vakilsearch) · Software Engineer - ML**
 
